@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 20px;
+}
+
 .upper{
   display: flex;
   height: 60px;
@@ -28,29 +39,19 @@
   color: white;
 }
 .content1{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1;
+  display: flex;
   width: 1200px;
   height: 500px;
 }
 .intro{
-  display: grid;
-  grid-column: 1;
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 700px;
-  width: 100%;
-  background-color: aqua;
-  align-items: end;
+  width: 600px;
 }
-.introBottom{
-  grid-column: 1;
-  grid-row: 3;
-  justify-content: end;
-}
+
 .maintitle{
-  background-color: red;
-  grid-row: 2;
   width: 600px;
   height: 232px;
   margin: 0px;
@@ -62,12 +63,14 @@
   //background-color: purple;
   align-items: center;
   justify-content: center;
+  width: 600px;
+  height: 700px;
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .cont2{
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: #0C0C0B;
   justify-content: center;
 }
@@ -77,53 +80,46 @@
   grid-template-rows: 100%;
   width: 1200px;
   height: 100%;
+  padding-top: 20px;
 }
-/////////////////////////////////////////
-button {
-  font-family: inherit;
-  font-size: 20px;
-  background: royalblue;
-  color: white;
-  padding: 0.7em 1em;
-  padding-left: 0.9em;
+.block1{
+  grid-template: 1;
+  border-radius: 20px;
+  width: 90%;
+  height: 86%;
+  background: transparent;
+  border: solid 1px white;
+}
+
+.writingBlock1{
   display: flex;
+  grid-row: span 4;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
   align-items: center;
-  border: none;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all 0.2s;
-  cursor: pointer;
-  width: 277px;
-  height: 52px;
+    .all{
+      text-align: left;
+        p{
+          margin-top: 40px;
+        }
+    }
 }
 
-button span {
-  display: block;
-  margin-left: 0.3em;
-  transition: all 0.3s ease-in-out;
+/////////////////////////////////////////
+.cont3{
+  width: 100%;
+  height: 600px;
+  background: #06050F;
 }
 
-button svg {
-  display: block;
-  transform-origin: center center;
-  transition: transform 0.3s ease-in-out;
-}
 
-button:hover .svg-wrapper {
-  animation: fly-1 0.6s ease-in-out infinite alternate;
-}
 
-button:hover svg {
-  transform: translateX(1.9em) rotate(45deg);
-}
 
-button:hover span {
-  transform: translateX(50em);
-}
 
-//button:active {
-//  transform: scale(0.95);
-//}
+///
 
 @keyframes fly-1 {
   from {
@@ -134,8 +130,90 @@ button:hover span {
     transform: translateY(-0.1em);
   }
 }
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #a13e37;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 315px;
+  height: 52px;
+}
 
+.button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
 
+.button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.button:hover svg {
+  transform: translateX(1.9em) rotate(45deg);
+}
+
+.button:hover span {
+  transform: translateX(50em);
+}
+////////////////////////////////////////////
+.button3 {
+  font-family: inherit;
+  font-size: 20px;
+  background: #a13e37;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 315px;
+  height: 52px;
+  margin-top: 60px;
+}
+
+.button3 span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.button3 svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button3:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.button3:hover svg {
+  transform: translateX(5.8em) rotate(45deg);
+}
+
+.button3:hover span {
+  transform: translateX(50em);
+}
 
 
 ///
