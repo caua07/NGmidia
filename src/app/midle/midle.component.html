@@ -1,0 +1,157 @@
+<div class="cont2">
+  <div class="content2">
+    <div class="cont2-1">
+      <div class="block1">
+        <img src="../assets/images/metodoview.png" width="88%">
+      </div>
+    </div>
+    <div class="cont2-2">
+      <div class="writingBlock1">
+          <h1 style="color: #B3363E;">NOSSO MÉTODO</h1>
+          <div class="all">
+            <div class="writback"><p class="montserrat">Aqui na NG midia, nós temos um método consolidado de marketing pra atender diferentes negócios, composto por três fases. <strong>Teste, Remarketing e Escala.</strong></p></div>
+            <div class="writback"><p class="montserrat">Este método serve para coletar dados sobre diferentes púbicos e criativos para até que emfim chegar na escala, com uma operação <strong>sofisticada</strong> e constante, trazendo retorno para sua empresa.</p></div>
+            <div class="writback"><p class="montserrat">Cada negócio é tratado de forma individual, com estratégias voltadas para a realidade do negócio em específico.</p></div>
+          </div>
+          <button (click)="scroll(target)" class="button3">
+            <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      fill="currentColor"
+                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Saber Mais sobre Isso</span>
+          </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="waves">
+  <div class="custom-shape-divider-bottom-1712439413">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<div class="cont3">
+  <div class="content3">
+    <div class="headline3">
+      <h1>Nós Usamos as Ferramentas que diferem o Grande do Pequeno.</h1>
+      <hr width="200px" color="white">
+      <h3>Servicos que Oferecemos para trazer Mais Resultados pra seu Negócio</h3>
+    </div>
+
+    <div class="swipebox">
+      <button class="lSeta" (click)="swipeL()" id="setas"><i class="gg-chevron-left"></i></button>
+      <div class="mainbox">
+        <div class="box box1" [ngClass]="{'boxSelected': selectedSlide == 1, 'boxNext': selectedSlide == 3, 'other': selectedSlide == 2}">
+          <div class="trafego">
+            <div class="mainT">
+              <h1>Tráfego Pago</h1>
+              <p>Gestão de anúncios do meta e do google.</p>
+              <div class="line"></div>
+            </div>
+            <div class="textP">
+              <ul class="bannersUl">
+                <li>Meio de divulgação eficaz e bem utilizado</li>
+                <li>Gestão e testes feitos minuciosamente</li>
+                <li>Encontre os clientes feitos pra você</li>
+              </ul>
+            </div>
+            <div class="photoT">
+              <img class="gAds" src="../assets/images/googleAds.png" width="90px">
+              <img class="meta" src="../assets/images/meta.png" width="110px">
+              <img class="pinterest" src="../assets/images/pinterest.png" width="90px">
+              <img class="inAds" src="../assets/images/linkedinAds.png" width="90px">
+            </div>
+          </div>
+        </div>
+        <div class="box box2" [ngClass]="{'boxSelected': selectedSlide == 2, 'boxNext': selectedSlide == 1, 'other': selectedSlide == 3}">
+          <div class="trafego">
+            <div class="mainT">
+              <h1>Cração de sites</h1>
+              <p>Criação de landing pages para seu negócio.</p>
+              <div class="line"></div>
+            </div>
+            <div class="textP">
+              <ul class="bannersUl">
+                <li>Ótimo para várias estratégias de captação de leads</li>
+                <li>Site feito por desenvolvedores qualificados</li>
+                <li>Identidade para seu negócio</li>
+              </ul>
+            </div>
+            <div class="photoT">
+              <div class="imgcontainer">
+                <img class="webSP" src="../assets/images/website.png" width="90%" style="border-radius: 20px;">
+              </div>
+            </div>
+          </div></div>
+        <div class="box box3" [ngClass]="{'boxSelected': selectedSlide == 3, 'boxNext': selectedSlide == 2, 'other': selectedSlide == 1}">
+          <div class="trafego">
+            <div class="mainT">
+              <h1 style="width: 110%;">Edição de criativos</h1>
+              <p>Criamos e editamos fotos e vídeos para o uso em anúncios.</p>
+              <div class="line"></div>
+            </div>
+            <div class="textP">
+              <ul class="bannersUl">
+                <li>Melhor forma para aumentar a conversão nas mídias</li>
+                <li>Anúncios editados minuciosamente para trazer resultados</li>
+                <li>Atraia os clientes perfeitos pra você</li>
+              </ul>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;" class="photoT">
+              <img class="wolf" src="../assets/images/criativoWolf.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="rSeta" id="setas" (click)="swipeR()"><i class="gg-chevron-right"></i></button>
+
+    </div>
+  </div>
+</div>
+
+<div #target class="cont4">
+  <div class="content4">
+    <div class="chamadaE">
+      <img class="profile" src="../assets/images/profile.jpg">
+      <h2 class="m1Text">AGENDE UMA CHAMADA COM O CAUÃ</h2>
+      <h1 class="m2Text">Chamada de 30 Minutos Gratuita</h1>
+    </div>
+    <div class="rText">
+      <p class="m3Text">&#160;&#160;&#160;Ao final dessa chamada você terá uma visão clara dos próximos passos que você pode tomar para seu negócio gerar resultados consistentes e escaláveis com anúncios pagos.</p>
+      <p class="m3Text">&#160;&#160;&#160;Agende um horário para falar conosco, estamos ansiosos para falar com você!</p>
+    </div>
+    <div class="benefits">
+      <h2>ESSA CHAMADA É PERFEITA PARA:</h2>
+      <ul>
+        <li>Negócios com o objetivo de transformar seus sites em meios <strong>otimizados de alta qualidade</strong> por funis e tráfego pago.</li>
+        <li>Negócios ou pessoas com o objetivo de escalar suas operações pela presença na internet.</li>
+        <li>Negócios querendo entender seu <strong>potencial de crescimento</strong> usando funis de vendas e tráfego pago bem gerenciados.</li>
+        <li>Negócios procurando por uma agência confiável que possa fazer do<strong> seu negócio uma prioridade</strong></li>
+      </ul>
+    </div>
+    <div class="blockD">
+      <div class="calendarBlock">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/ratauzim/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+        <!-- Calendly inline widget end -->
+      </div>
+    </div>
+  </div>
+</div>
+
