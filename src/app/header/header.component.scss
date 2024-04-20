@@ -53,6 +53,9 @@
   width: 100%;
   height: 100px;
 }
+.btnph{
+  display: flex;
+}
 .cont1{
   display: flex;
   justify-content: center;
@@ -222,10 +225,154 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 
 @media (max-width: 430px) {
-  body{
-    width: 430px;
-  }
   .upper{
     width: 100%;
+  }
+  .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    margin: 0px;
+  }
+  .cont1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1100px;
+    background-color: #0D151F;
+    color: white;
+  }
+  .content1{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 600px 600px;
+    width: 100%;
+    height: 600px;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+  .upperTitle{
+    font-weight: 700 bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .maintitle{
+    width: 96%;
+    height: 240px;
+    margin: 0px;
+    font-size: 36px;
+    color: #b3363e;
+    font-weight: 900;
+    font-family: "inter", sans-serif;
+  }
+  .inter{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 92%;
+    margin-top: 0px;
+  }
+  .button3{
+    margin-top: 20px;
+  }
+  .btnph{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  .img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+  }
+  .queda{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+  }
+
+
+  #apps{
+    width: 40px;
+    height: 40px;
+  }
+
+  .ig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 306px;
+    margin-top: -204px;
+    position: absolute;
+    border-radius: 50%;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    transform: rotate(340deg);
+  }
+  .google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -380px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotate(353deg);
+  }
+
+  .youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -41px;
+    position: absolute;
+    margin-left: 333px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #E73F35;
+    transform: rotate(2deg);
+  }
+  .linkedin{
+    margin-left: -341px;
+    margin-top: 206px;
+    position: absolute;
+    transform: rotate(14deg);
+  }
+  .shopify{
+    margin-left: 303px;
+    margin-top: 302px;
+    position: absolute;
+    transform: rotate(14deg);
+  }
+  .facebook{
+    margin-left: 961px;
+    margin-top: -45px;
+    position: absolute;
+    transform: rotate(356deg);
+
   }
 }
