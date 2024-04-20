@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:NgWeb": "node dist/ng-web/server/server.mjs"
+    "serve:ssr:NgWeb": "node dist/ng-web/server/server.mjs",
+    "deploy:ghdocs":"ng build --output-path docs --base-href /NGmidia/"
   },
   "private": true,
   "dependencies": {

@@ -68,6 +68,12 @@
       <div class="mainbox">
         <div class="box box1" [ngClass]="{'boxSelected': selectedSlide == 1, 'boxNext': selectedSlide == 3, 'other': selectedSlide == 2}">
           <div class="trafego">
+            <div class="photoT">
+              <img class="gAds" src="../assets/images/googleAds.png" width="90px">
+              <img class="meta" src="../assets/images/meta.png" width="110px">
+              <img class="pinterest" src="../assets/images/pinterest.png" width="90px">
+              <img class="inAds" src="../assets/images/linkedinAds.png" width="90px">
+            </div>
             <div class="mainT">
               <h1>Tráfego Pago</h1>
               <p>Gestão de anúncios do meta e do google.</p>
@@ -80,16 +86,15 @@
                 <li>Encontre os clientes feitos pra você</li>
               </ul>
             </div>
-            <div class="photoT">
-              <img class="gAds" src="../assets/images/googleAds.png" width="90px">
-              <img class="meta" src="../assets/images/meta.png" width="110px">
-              <img class="pinterest" src="../assets/images/pinterest.png" width="90px">
-              <img class="inAds" src="../assets/images/linkedinAds.png" width="90px">
-            </div>
           </div>
         </div>
         <div class="box box2" [ngClass]="{'boxSelected': selectedSlide == 2, 'boxNext': selectedSlide == 1, 'other': selectedSlide == 3}">
           <div class="trafego">
+            <div class="photoT">
+              <div class="imgcontainer">
+                <img class="webSP" src="../assets/images/website.png" width="90%" style="border-radius: 20px;">
+              </div>
+            </div>
             <div class="mainT">
               <h1>Cração de sites</h1>
               <p>Criação de landing pages para seu negócio.</p>
@@ -102,16 +107,14 @@
                 <li>Identidade para seu negócio</li>
               </ul>
             </div>
-            <div class="photoT">
-              <div class="imgcontainer">
-                <img class="webSP" src="../assets/images/website.png" width="90%" style="border-radius: 20px;">
-              </div>
-            </div>
           </div></div>
         <div class="box box3" [ngClass]="{'boxSelected': selectedSlide == 3, 'boxNext': selectedSlide == 2, 'other': selectedSlide == 1}">
           <div class="trafego">
+            <div style="display: flex; justify-content: center; align-items: center;" class="photoT">
+              <img class="wolf" src="../assets/images/criativoWolf.png">
+            </div>
             <div class="mainT">
-              <h1 style="width: 110%;">Edição de criativos</h1>
+              <h1 style="width: 400px;">Edição de criativos</h1>
               <p>Criamos e editamos fotos e vídeos para o uso em anúncios.</p>
               <div class="line"></div>
             </div>
@@ -121,9 +124,6 @@
                 <li>Anúncios editados minuciosamente para trazer resultados</li>
                 <li>Atraia os clientes perfeitos pra você</li>
               </ul>
-            </div>
-            <div style="display: flex; justify-content: center; align-items: center;" class="photoT">
-              <img class="wolf" src="../assets/images/criativoWolf.png">
             </div>
           </div>
         </div>
@@ -135,24 +135,20 @@
 </div>
 
 <div #target class="cont4">
+  <div class="profilePc">
+    <img class="profile" src="../assets/images/profile.jpg">
+  </div>
   <div class="content4">
-    <div class="chamadaE">
+    <div class="imgholder">
       <img class="profile" src="../assets/images/profile.jpg">
+    </div>
+    <div class="chamadaE">
       <h2 class="m1Text">AGENDE UMA CHAMADA COM O CAUÃ</h2>
       <h1 class="m2Text">Chamada de 15 Minutos Gratuita</h1>
     </div>
     <div class="rText">
-      <p class="m3Text">&#160;&#160;&#160;Ao final dessa chamada você terá uma visão clara dos próximos passos que você pode tomar para seu negócio gerar resultados consistentes e escaláveis com anúncios pagos.</p>
-      <p class="m3Text">&#160;&#160;&#160;Agende um horário para falar conosco, estamos ansiosos para falar com você!</p>
-    </div>
-    <div class="benefits">
-      <h2>ESSA CHAMADA É PERFEITA PARA:</h2>
-      <ul>
-        <li>Negócios com o objetivo de transformar seus sites em meios <strong>otimizados de alta qualidade</strong> por funis e tráfego pago.</li>
-        <li>Negócios ou pessoas com o objetivo de escalar suas operações pela presença na internet.</li>
-        <li>Negócios querendo entender seu <strong>potencial de crescimento</strong> usando funis de vendas e tráfego pago bem gerenciados.</li>
-        <li>Negócios procurando por uma agência confiável que possa fazer do<strong> seu negócio uma prioridade</strong></li>
-      </ul>
+      <p class="m3Text" style="margin-top: 0px;">Ao final dessa chamada você terá uma visão clara dos próximos passos que você pode tomar para seu negócio gerar resultados consistentes e escaláveis com anúncios pagos.</p>
+      <p class="m3Text">Agende um horário para falar conosco, estamos ansiosos para falar com você!</p>
     </div>
     <div class="blockD">
       <div class="calendarBlock">
@@ -160,6 +156,15 @@
         <div class="calendly-inline-widget" data-url="https://calendly.com/ratauzim/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
         <!-- Calendly inline widget end -->
       </div>
+    </div>
+    <div class="benefits">
+      <h2>ESSA CHAMADA É PERFEITA PARA:</h2>
+      <ul>
+        <li>Negócios com o objetivo de transformar seus sites em meios <strong>otimizados de alta qualidade</strong> por funis e tráfego pago.</li>
+        <li>Negócios ou pessoas com o objetivo de escalar suas operações pela presença na internet.</li>
+        <li>Negócios querendo entender seu <strong>potencial de crescimento</strong> usando funis de vendas e tráfego pago bem gerenciados.</li>
+        <li>Negócios procurando por uma agência confiável que possa fazer do<strong> seu negócio uma prioridade.</strong></li>
+      </ul>
     </div>
   </div>
 </div>
